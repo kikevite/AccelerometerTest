@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-    private static final String LOG_TAG = "kike";
     // Sensor
     private SensorManager senSensorManager;
     private Sensor senAccelerometer;

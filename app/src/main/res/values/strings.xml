@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AccelerometerTest</string>
+    <string name="move_the_phone">Move the Phone</string>
 </resources>
