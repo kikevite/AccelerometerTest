@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 long diffTime = (curTime - lastUpdate);
                 lastUpdate = curTime;
                 float speed = Math.abs(x + y + z - last_x - last_y - last_z)/ diffTime * time*time;
+                //Log.i("kike", String.format("x:%f y:%f z:%f speed:%f", x, y, z, speed));
                 if (speed > SHAKE_THRESHOLD) {
                     startVibration(time);
                 } else {
